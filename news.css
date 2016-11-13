@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Leejy (1187833565@qq.com)
+ * @date    2016-11-12 18:31:27
+ * @version base
+ */
+body {
+	background-color: #FAE0E7;
+}
+.container {
+ 	width: 800px;
+ 	font-family: "宋体";
+ 	text-align: center;
+ 	margin: 0px auto;
+}
+/*header*/
+.header {
+	background-color: #c0f5ef;
+	width: 800px;
+	border: 1px solid #c1bebc;
+}
+h1 {
+	font-family: "黑体";
+	margin-top: 50px;
+}
+.headline {
+	color: #000099;
+	text-align: center;
+	font-family: "黑体";
+}
+
+/*main*/
+.main {
+	background-color: #c0f5ef;
+	width: 740px;
+	text-align: left;
+	padding: 20px 30px 40px 30px;
+	border: 1px solid #c1bebc;
+}
+.main p {
+	font-size: 15px;
+	text-indent: 2em;
+	text-height: 1.6em;
+	font-family: "黑体";
+}
+.line { 
+	margin-top: 50px;
+	border-bottom: 2px solid #c1bebc; 
+}
+
+/*footer*/
+.footer {
+	width: 800px;
+	background-color: #FAE0E7;
+	text-align: left;
+}
+.footer div {
+	width: 400px;
+	float: left;
+}
+.footer a {
+	text-decoration: none;
+}
+.footer a:link { color: blue; }
+.footer a:visited { color: green; }
+.footer a:hover { color: red; }
+.footer a:active { color: yellow; }
